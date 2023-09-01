@@ -1,0 +1,21 @@
+.pagination-container{
+    display: flex;
+    gap:.5rem;
+
+    button{
+        width:35px;
+        height:35px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        color:white;
+        background: $secondary;
+        cursor: pointer;
+
+        &.active{
+            background:$primary;
+        }
+    }
+}
